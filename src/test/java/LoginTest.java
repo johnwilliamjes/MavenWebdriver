@@ -23,7 +23,6 @@ public class LoginTest {
     public void Step() {
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
-   
  		FirefoxOptions options = new FirefoxOptions();
  		options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");	
    	    driver= new FirefoxDriver();
