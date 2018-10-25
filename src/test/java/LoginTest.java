@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -23,9 +24,14 @@ public class LoginTest {
     public void Step() {
 		
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
- 		FirefoxOptions options = new FirefoxOptions();
+ 		/*FirefoxOptions options = new FirefoxOptions();
  		options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");	
    	    driver= new FirefoxDriver();
+   	    
+   	    */
+   	 DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+   	capabilities.setCapability("marionette",true);
+   	driver = new FirefoxDriver();
     }
 	
 	@Test
