@@ -40,7 +40,7 @@ public class LoginTest {
 	 FirefoxProfile profile = new FirefoxProfile();
 	 		System.setProperty("webdriver.gecko.driver","C:\\geckodriver\\geckodriver.exe");
 	 		//System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE, "true");
-	 		//System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "conoleLogs_Firefox.txt");
+	 		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "conoleLogs_Firefox.txt");
 	 		//firefoxOptions.addPreference("--log", "trace");
 	 		//firefoxOptions.addPreference("browser.popups.showPopupBlocker", false);
 	 		firefoxOptions.addPreference("security.sandbox.content.level", 5);
