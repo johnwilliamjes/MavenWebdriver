@@ -46,7 +46,7 @@ public class LoginTest {
 	 		firefoxOptions.addPreference("security.sandbox.content.level", 5);
 	 		firefoxOptions.setAcceptInsecureCerts(true);
 	 		firefoxOptions.setProfile(profile);
-	 		driver = new FirefoxDriver();
+	 		driver = new FirefoxDriver(firefoxOptions);
 	
 	}
 	
