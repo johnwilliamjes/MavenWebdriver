@@ -44,7 +44,7 @@ public class LoginTest {
 	 		firefoxOptions.addPreference("--log", "trace");
 	 		firefoxOptions.addPreference("browser.popups.showPopupBlocker", false);
 	 	//	firefoxOptions.addPreference("security.sandbox.content.level", 5);
-	 	//	firefoxOptions.setAcceptInsecureCerts(true);
+	 		firefoxOptions.setAcceptInsecureCerts(true);
 	 		firefoxOptions.setProfile(profile);
 	 		driver = new FirefoxDriver(firefoxOptions);
 	
