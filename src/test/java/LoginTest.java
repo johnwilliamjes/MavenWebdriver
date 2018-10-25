@@ -37,8 +37,8 @@ public class LoginTest {
 		WebDriverWait wait= new WebDriverWait(driver,50);
 		wait.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("//input[@name='password']")))).sendKeys("dasad");;
 		 driver.findElement(By.xpath("//span[text()='Next']")).click();
-		 System.out.println(driver.findElement(By.xpath("//div[text()='Wrong password. Try again or click Forgot password to reset it.']")).getText());
-		 Assert.assertEquals(driver.findElement(By.xpath("//div[text()='Wrong password. Try again or click Forgot password to reset it.']")).getText(), "Wrong password. Try again or click Forgot password to reset it.");
+		// System.out.println(driver.findElement(By.xpath("//div[text()='Wrong password. Try again or click Forgot password to reset it.']")).getText());
+		// Assert.assertEquals(driver.findElement(By.xpath("//div[text()='Wrong password. Try again or click Forgot password to reset it.']")).getText(), "Wrong password. Try again or click Forgot password to reset it.");
 		
 	}
     
