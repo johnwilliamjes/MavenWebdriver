@@ -24,6 +24,16 @@ public class LoginTest {
 	@BeforeSuite
     public void Step() {
 		
+		boolean t=true;
+		
+		if(!t) {
+			
+		System.out.println("tes1");	
+		} else {
+			System.out.println("tes2");	
+			
+		}
+		
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
  		/*FirefoxOptions options = new FirefoxOptions();
  		options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe");	
