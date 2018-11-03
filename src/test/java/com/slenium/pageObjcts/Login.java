@@ -13,6 +13,7 @@ public class Login extends TestBase {
 		super(driver);
 	}
 
+	
 	public void doLogin() {
 		 DesiredCapabilities desiredCapabilities = DesiredCapabilities.firefox();
 		 final FirefoxOptions firefoxOptions = new FirefoxOptions(desiredCapabilities);
