@@ -12,6 +12,7 @@ public class Login extends TestBase {
 	public Login(WebDriver driver) {
 		
 		//Super class used for get driver
+		//Super class
 		super(driver);
 	}
 

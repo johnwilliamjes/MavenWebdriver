@@ -47,6 +47,11 @@ public class Home extends TestBase {
 
 	}
 
+	public static void Test6() {
+
+
+
+	}
 
 		public static void Test7() {
 
