@@ -8,14 +8,9 @@ public class Home extends TestBase {
    
 	public Home(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
-	}
+		}
 
-	public Login GotoLogin() {
-		// TODO Auto-generated method stub
-		
-		
-		 		
+	public Login GotoLogin() {	
 		
 		return null;
 	}
