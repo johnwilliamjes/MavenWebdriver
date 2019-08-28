@@ -24,5 +24,10 @@ public class Home extends TestBase {
 	//Test me not	
 	}
 	
+	public static void Test2() {
+
+	//Test me not	
+
+	}
 
 }
