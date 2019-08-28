@@ -19,5 +19,10 @@ public class Home extends TestBase {
 		return null;
 	}
 
+	
+	public static void Test() {
+	//Test me not	
+	}
+	
 
 }
