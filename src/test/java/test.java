@@ -2,8 +2,9 @@
 
 import org.openqa.selenium.WebDriver;
 
-import com.slenium.pageObjcts.Home;
-import com.slenium.pageObjcts.Login;
+import com.selenium.pageObjcts.Home;
+import com.selenium.pageObjcts.Login;
+
 
 
 public class test {
