@@ -48,4 +48,14 @@ public class Home extends TestBase {
 	}
 
 
+		public static void Test7() {
+
+
+
+	//Test me not	
+
+
+
+	}
+
 }
