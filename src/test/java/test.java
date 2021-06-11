@@ -14,12 +14,8 @@ public class test {
 	
 	public static void main(String[] args) {
 		//MyChange
-
-		Home home1 =new Home(driver);
-		Login lp = home1.GotoLogin();
-		
-		
-
+Home home =new Home(driver);
+Login lp = home.GotoLogin();
 	}
 
 }
